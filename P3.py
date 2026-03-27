@@ -12,5 +12,4 @@ class Pokemon:
     
     def heal(self):
         self.hit_points += 15
-
-        return f'{self.name.title()} has been healed to {self.hit_points}'
+        print(f'{self.name.title()} has been healed to {self.hit_points} hit points.')
